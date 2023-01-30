@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45531C75297B1F46007FF314 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45531C74297B1F46007FF314 /* VideoPlayerView.swift */; };
+		45531C77297B1FC6007FF314 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45531C76297B1FC6007FF314 /* VideoPlayerHelper.swift */; };
 		455E67322976318000343C78 /* iOS_Developer_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E67312976318000343C78 /* iOS_Developer_TestApp.swift */; };
 		455E67342976318000343C78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E67332976318000343C78 /* ContentView.swift */; };
 		455E67362976318100343C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455E67352976318100343C78 /* Assets.xcassets */; };
 		455E67392976318100343C78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455E67382976318100343C78 /* Preview Assets.xcassets */; };
-		455E67432976318100343C78 /* iOS_Developer_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E67422976318100343C78 /* iOS_Developer_TestTests.swift */; };
-		455E674D2976318100343C78 /* iOS_Developer_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E674C2976318100343C78 /* iOS_Developer_TestUITests.swift */; };
+		455E67432976318100343C78 /* iOS_Developer_TestUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E67422976318100343C78 /* iOS_Developer_TestUnitTest.swift */; };
 		455E674F2976318100343C78 /* iOS_Developer_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E674E2976318100343C78 /* iOS_Developer_TestUITestsLaunchTests.swift */; };
+		455E675C29763BD400343C78 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E675B29763BD400343C78 /* ApiManager.swift */; };
+		455E675E29763C0400343C78 /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E675D29763C0400343C78 /* ApiModel.swift */; };
+		455E676029763C1500343C78 /* ApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E675F29763C1500343C78 /* ApiData.swift */; };
+		4564BBF8297DF932000156A3 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4564BBF7297DF932000156A3 /* DownloadManager.swift */; };
+		4576052E2986D1E700905538 /* iOS_Developer_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E674C2976318100343C78 /* iOS_Developer_TestUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +40,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45531C74297B1F46007FF314 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		45531C76297B1FC6007FF314 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		455E672E2976318000343C78 /* iOS Developer Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Developer Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		455E67312976318000343C78 /* iOS_Developer_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Developer_TestApp.swift; sourceTree = "<group>"; };
 		455E67332976318000343C78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		455E67352976318100343C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		455E67382976318100343C78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		455E673E2976318100343C78 /* iOS Developer TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Developer TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		455E67422976318100343C78 /* iOS_Developer_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Developer_TestTests.swift; sourceTree = "<group>"; };
+		455E67422976318100343C78 /* iOS_Developer_TestUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Developer_TestUnitTest.swift; sourceTree = "<group>"; };
 		455E67482976318100343C78 /* iOS Developer TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Developer TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		455E674C2976318100343C78 /* iOS_Developer_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Developer_TestUITests.swift; sourceTree = "<group>"; };
 		455E674E2976318100343C78 /* iOS_Developer_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Developer_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		455E675B29763BD400343C78 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		455E675D29763C0400343C78 /* ApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModel.swift; sourceTree = "<group>"; };
+		455E675F29763C1500343C78 /* ApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiData.swift; sourceTree = "<group>"; };
+		4564BBF7297DF932000156A3 /* DownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,12 @@
 			children = (
 				455E67312976318000343C78 /* iOS_Developer_TestApp.swift */,
 				455E67332976318000343C78 /* ContentView.swift */,
+				45531C74297B1F46007FF314 /* VideoPlayerView.swift */,
+				45531C76297B1FC6007FF314 /* VideoPlayerHelper.swift */,
+				4564BBF7297DF932000156A3 /* DownloadManager.swift */,
+				455E675B29763BD400343C78 /* ApiManager.swift */,
+				455E675D29763C0400343C78 /* ApiModel.swift */,
+				455E675F29763C1500343C78 /* ApiData.swift */,
 				455E67352976318100343C78 /* Assets.xcassets */,
 				455E67372976318100343C78 /* Preview Content */,
 			);
@@ -113,7 +131,8 @@
 		455E67412976318100343C78 /* iOS Developer TestTests */ = {
 			isa = PBXGroup;
 			children = (
-				455E67422976318100343C78 /* iOS_Developer_TestTests.swift */,
+				455E67422976318100343C78 /* iOS_Developer_TestUnitTest.swift */,
+				455E674C2976318100343C78 /* iOS_Developer_TestUITests.swift */,
 			);
 			path = "iOS Developer TestTests";
 			sourceTree = "<group>";
@@ -121,7 +140,6 @@
 		455E674B2976318100343C78 /* iOS Developer TestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				455E674C2976318100343C78 /* iOS_Developer_TestUITests.swift */,
 				455E674E2976318100343C78 /* iOS_Developer_TestUITestsLaunchTests.swift */,
 			);
 			path = "iOS Developer TestUITests";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				455E675E29763C0400343C78 /* ApiModel.swift in Sources */,
+				455E676029763C1500343C78 /* ApiData.swift in Sources */,
 				455E67342976318000343C78 /* ContentView.swift in Sources */,
+				4564BBF8297DF932000156A3 /* DownloadManager.swift in Sources */,
+				45531C77297B1FC6007FF314 /* VideoPlayerHelper.swift in Sources */,
+				455E675C29763BD400343C78 /* ApiManager.swift in Sources */,
 				455E67322976318000343C78 /* iOS_Developer_TestApp.swift in Sources */,
+				45531C75297B1F46007FF314 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455E67432976318100343C78 /* iOS_Developer_TestTests.swift in Sources */,
+				4576052E2986D1E700905538 /* iOS_Developer_TestUITests.swift in Sources */,
+				455E67432976318100343C78 /* iOS_Developer_TestUnitTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455E674D2976318100343C78 /* iOS_Developer_TestUITests.swift in Sources */,
 				455E674F2976318100343C78 /* iOS_Developer_TestUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
